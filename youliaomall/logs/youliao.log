@@ -390,3 +390,225 @@ WARNING 2021-08-18 21:08:11,287 basehttp 161 "GET /static/css/main.css HTTP/1.1"
 WARNING 2021-08-18 21:08:11,301 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
 WARNING 2021-08-18 21:08:11,306 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
 INFO 2021-08-18 21:08:55,688 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-18 21:09:12,909 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:09:12,980 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:09:12,987 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+WARNING 2021-08-18 21:09:12,988 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:09:12,988 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+INFO 2021-08-18 21:09:13,682 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:09:13,728 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:09:13,731 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:09:13,738 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:09:13,739 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 21:09:13,861 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:09:13,908 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:09:13,910 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:09:13,917 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+WARNING 2021-08-18 21:09:13,918 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+INFO 2021-08-18 21:09:14,031 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:09:14,073 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:09:14,073 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:09:14,088 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:09:14,089 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 21:09:14,196 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:09:14,237 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:09:14,240 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:09:14,251 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:09:14,256 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 21:09:14,366 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:09:14,410 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:09:14,410 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:09:14,415 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:09:14,419 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 21:09:14,534 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:09:14,572 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:09:14,581 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:09:14,586 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:09:14,591 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 21:09:14,701 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:09:14,748 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:09:14,752 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:09:14,757 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:09:14,761 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 21:09:14,878 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:09:14,921 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:09:14,921 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:09:14,932 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:09:14,937 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 21:09:15,029 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:09:15,066 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:09:15,076 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:09:15,080 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:09:15,085 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+WARNING 2021-08-18 21:09:15,841 log 230 Not Found: /register/index.html
+WARNING 2021-08-18 21:09:15,842 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2299
+INFO 2021-08-18 21:10:03,450 basehttp 161 "GET /admin HTTP/1.1" 301 0
+INFO 2021-08-18 21:10:03,483 basehttp 161 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-08-18 21:10:03,558 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+INFO 2021-08-18 21:10:03,588 basehttp 161 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2021-08-18 21:10:03,590 basehttp 161 "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2021-08-18 21:10:03,597 basehttp 161 "GET /static/admin/css/login.css HTTP/1.1" 200 939
+INFO 2021-08-18 21:10:03,602 basehttp 161 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-08-18 21:10:03,605 basehttp 161 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2021-08-18 21:10:03,605 basehttp 161 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2021-08-18 21:10:03,640 basehttp 161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-08-18 21:10:03,641 basehttp 161 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+ERROR 2021-08-18 21:10:13,470 log 230 Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'youliao.auth_user' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\admin\sites.py", line 414, in login
+    return LoginView.as_view(**defaults)(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\decorators\debug.py", line 89, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\views.py", line 63, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\generic\edit.py", line 141, in post
+    if form.is_valid():
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\forms\forms.py", line 175, in is_valid
+    return self.is_bound and not self.errors
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\forms\forms.py", line 170, in errors
+    self.full_clean()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\forms\forms.py", line 373, in full_clean
+    self._clean_form()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\forms\forms.py", line 400, in _clean_form
+    cleaned_data = self.clean()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\forms.py", line 202, in clean
+    self.user_cache = authenticate(self.request, username=username, password=password)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\decorators\debug.py", line 42, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\__init__.py", line 76, in authenticate
+    user = backend.authenticate(request, **credentials)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\backends.py", line 42, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\contrib\auth\base_user.py", line 45, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 431, in get
+    num = len(clone)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'youliao.auth_user' doesn't exist")
+ERROR 2021-08-18 21:10:13,504 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 500 297528
+INFO 2021-08-18 21:10:22,627 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:10:22,678 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:10:22,688 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:10:22,688 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:10:22,689 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 21:15:07,579 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:15:07,625 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:15:07,628 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:15:07,636 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+WARNING 2021-08-18 21:15:07,636 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:15:14,215 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+INFO 2021-08-18 21:19:14,451 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:19:14,508 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:19:14,513 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:19:14,517 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+WARNING 2021-08-18 21:19:14,523 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+INFO 2021-08-18 21:19:59,817 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:19:59,860 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:19:59,864 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:19:59,869 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:19:59,874 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 21:37:14,697 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:37:14,743 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:37:14,743 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:37:14,754 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:37:14,759 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+WARNING 2021-08-18 21:37:47,616 log 230 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2021-08-18 21:37:47,617 basehttp 161 "POST /register/ HTTP/1.1" 403 2519
+WARNING 2021-08-18 21:37:49,865 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:37:49,871 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:37:49,881 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:37:49,881 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+WARNING 2021-08-18 21:37:52,097 log 230 Not Found: /register/login.html
+WARNING 2021-08-18 21:37:52,098 basehttp 161 "GET /register/login.html HTTP/1.1" 404 2299
+WARNING 2021-08-18 21:39:38,623 log 230 Not Found: /
+WARNING 2021-08-18 21:39:38,624 basehttp 161 "GET / HTTP/1.1" 404 2224
+INFO 2021-08-18 21:39:51,174 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:39:51,220 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:39:51,224 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:39:51,239 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:39:51,244 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 23:24:40,359 autoreload 637 Watching for file changes with StatReloader
