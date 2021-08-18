@@ -18,3 +18,375 @@ INFO 2021-08-18 11:06:09,862 autoreload 637 Watching for file changes with StatR
 INFO 2021-08-18 11:07:57,147 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-08-18 11:10:28,493 autoreload 637 Watching for file changes with StatReloader
 INFO 2021-08-18 11:14:01,662 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-18 17:29:31,330 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-18 17:32:46,653 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-18 17:33:01,818 basehttp 161 "GET / HTTP/1.1" 200 10697
+INFO 2021-08-18 17:33:01,852 basehttp 161 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-08-18 17:33:01,972 basehttp 161 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2021-08-18 17:33:02,006 basehttp 161 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-08-18 17:33:02,007 basehttp 161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-08-18 17:49:23,364 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-18 17:49:47,873 autoreload 251 D:\01\youliaomall\youliaomall\youliaomall\settings\dev.py changed, reloading.
+INFO 2021-08-18 17:49:54,320 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-18 17:50:18,472 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-18 17:50:31,941 autoreload 251 D:\01\youliaomall\youliaomall\youliaomall\settings\dev.py changed, reloading.
+INFO 2021-08-18 20:44:27,714 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-18 20:46:01,505 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-18 20:46:16,926 log 230 Not Found: /
+WARNING 2021-08-18 20:46:16,928 basehttp 161 "GET / HTTP/1.1" 404 2224
+INFO 2021-08-18 20:46:30,089 basehttp 161 "GET /register HTTP/1.1" 301 0
+ERROR 2021-08-18 20:46:30,205 log 230 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\01\youliaomall\youliaomall\youliaomall\apps\users\views.py", line 11, in get
+    return render(request,'register.html')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: register.html
+ERROR 2021-08-18 20:46:30,212 basehttp 161 "GET /register/ HTTP/1.1" 500 92058
+ERROR 2021-08-18 20:47:36,543 log 230 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\01\youliaomall\youliaomall\youliaomall\apps\users\views.py", line 11, in get
+    return render(request,'register.html')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: register.html
+ERROR 2021-08-18 20:47:36,549 basehttp 161 "GET /register/ HTTP/1.1" 500 92195
+ERROR 2021-08-18 20:47:39,005 log 230 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\01\youliaomall\youliaomall\youliaomall\apps\users\views.py", line 11, in get
+    return render(request,'register.html')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: register.html
+ERROR 2021-08-18 20:47:39,012 basehttp 161 "GET /register/ HTTP/1.1" 500 92195
+INFO 2021-08-18 20:51:42,400 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-18 20:51:51,576 log 230 Not Found: /
+WARNING 2021-08-18 20:51:51,578 basehttp 161 "GET / HTTP/1.1" 404 2224
+ERROR 2021-08-18 20:52:06,765 log 230 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\01\youliaomall\youliaomall\youliaomall\apps\users\views.py", line 11, in get
+    return render(request,'register.html')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: register.html
+ERROR 2021-08-18 20:52:06,773 basehttp 161 "GET /register/ HTTP/1.1" 500 92058
+INFO 2021-08-18 20:53:53,951 autoreload 637 Watching for file changes with StatReloader
+ERROR 2021-08-18 20:54:04,415 log 230 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\01\youliaomall\youliaomall\youliaomall\apps\users\views.py", line 11, in get
+    return render(request,'register.html')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: register.html
+ERROR 2021-08-18 20:54:04,423 basehttp 161 "GET /register/ HTTP/1.1" 500 92195
+ERROR 2021-08-18 20:54:05,453 log 230 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\01\youliaomall\youliaomall\youliaomall\apps\users\views.py", line 11, in get
+    return render(request,'register.html')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: register.html
+ERROR 2021-08-18 20:54:05,461 basehttp 161 "GET /register/ HTTP/1.1" 500 92195
+ERROR 2021-08-18 20:54:06,221 log 230 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\01\youliaomall\youliaomall\youliaomall\apps\users\views.py", line 11, in get
+    return render(request,'register.html')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: register.html
+ERROR 2021-08-18 20:54:06,227 basehttp 161 "GET /register/ HTTP/1.1" 500 92195
+ERROR 2021-08-18 20:54:09,332 log 230 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\01\youliaomall\youliaomall\youliaomall\apps\users\views.py", line 11, in get
+    return render(request,'register.html')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: register.html
+ERROR 2021-08-18 20:54:09,338 basehttp 161 "GET /register/ HTTP/1.1" 500 92058
+INFO 2021-08-18 20:54:38,137 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-18 20:54:40,698 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:54:40,777 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+WARNING 2021-08-18 20:54:40,777 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:54:40,780 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:54:40,784 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+INFO 2021-08-18 20:54:42,658 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:54:42,705 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:54:42,718 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:54:42,720 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:54:42,727 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:54:43,408 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:54:43,452 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:54:43,452 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:54:43,466 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+WARNING 2021-08-18 20:54:43,472 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+INFO 2021-08-18 20:54:43,849 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:54:43,896 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:54:43,908 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:54:43,909 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:54:43,916 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:54:44,103 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:54:44,142 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:54:44,146 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:54:44,160 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:54:44,165 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:54:44,291 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:54:44,328 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:54:44,333 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:54:44,343 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:54:44,347 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:54:44,480 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:54:44,520 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:54:44,531 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:54:44,535 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:54:44,543 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:54:44,647 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:54:44,696 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:54:44,697 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:54:44,702 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:54:44,708 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:54:44,848 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:54:44,890 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:54:44,897 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:54:44,902 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:54:44,908 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:54:45,008 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:54:45,056 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:54:45,057 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:54:45,066 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:54:45,068 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:54:54,856 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:54:54,895 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:54:54,895 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:54:54,906 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:54:54,910 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:54:55,401 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:54:55,446 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:54:55,452 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:54:55,452 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:54:55,458 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:54:55,609 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:54:55,659 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:54:55,659 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:54:55,660 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:54:55,666 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:54:55,980 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:54:56,022 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:54:56,032 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:54:56,034 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:54:56,039 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:54:56,166 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:54:56,205 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:54:56,208 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:54:56,214 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:54:56,223 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:54:56,384 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:54:56,430 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:54:56,431 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:54:56,438 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:54:56,438 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:54:56,563 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:54:56,605 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:54:56,607 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:54:56,618 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:54:56,623 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:54:56,744 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:54:56,788 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:54:56,791 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:54:56,796 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:54:56,798 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:54:56,943 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:54:56,981 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:54:56,988 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:54:56,994 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:54:56,999 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:54:57,136 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:54:57,178 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:54:57,181 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:54:57,185 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:54:57,188 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+WARNING 2021-08-18 20:55:19,841 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+INFO 2021-08-18 20:55:49,020 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:55:49,071 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:55:49,071 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:55:49,077 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+WARNING 2021-08-18 20:55:49,081 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+INFO 2021-08-18 20:55:50,251 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:55:50,294 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:55:50,301 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:55:50,305 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:55:50,309 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:55:50,720 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:55:50,769 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:55:50,772 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:55:50,773 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:55:50,777 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:55:50,887 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:55:50,924 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:55:50,933 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:55:50,938 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:55:50,941 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:55:51,049 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:55:51,087 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:55:51,099 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:55:51,103 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:55:51,107 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:55:51,208 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:55:51,253 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:55:51,254 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:55:51,261 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:55:51,262 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:55:51,360 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:55:51,404 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:55:51,408 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:55:51,413 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:55:51,414 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:55:51,528 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:55:51,565 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:55:51,574 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:55:51,578 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:55:51,583 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 20:55:51,693 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 20:55:51,736 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 20:55:51,742 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 20:55:51,747 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 20:55:51,751 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 21:01:03,106 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-18 21:01:18,960 log 230 Not Found: /
+WARNING 2021-08-18 21:01:18,963 basehttp 161 "GET / HTTP/1.1" 404 2224
+INFO 2021-08-18 21:02:23,088 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:02:23,153 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:02:23,156 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:02:23,161 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:02:23,168 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 21:05:53,643 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:05:53,687 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:05:53,689 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:05:53,702 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:05:53,707 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+WARNING 2021-08-18 21:05:56,582 log 230 Not Found: /register/login.html
+WARNING 2021-08-18 21:05:56,583 basehttp 161 "GET /register/login.html HTTP/1.1" 404 2299
+INFO 2021-08-18 21:06:06,465 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:06:06,511 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:06:06,511 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:06:06,518 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:06:06,522 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 21:06:15,905 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:06:15,995 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:06:15,996 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:06:16,032 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:06:16,038 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+WARNING 2021-08-18 21:06:16,132 log 230 Not Found: /favicon.ico
+WARNING 2021-08-18 21:06:16,133 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2275
+WARNING 2021-08-18 21:06:50,827 log 230 Forbidden (CSRF cookie not set.): /register/
+WARNING 2021-08-18 21:06:50,828 basehttp 161 "POST /register/ HTTP/1.1" 403 2870
+WARNING 2021-08-18 21:06:53,145 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:06:53,149 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:06:53,153 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:06:53,158 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 21:08:04,423 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:08:04,473 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:08:04,473 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:08:04,479 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:08:04,485 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 21:08:11,214 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+WARNING 2021-08-18 21:08:11,285 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 404 1798
+WARNING 2021-08-18 21:08:11,287 basehttp 161 "GET /static/css/main.css HTTP/1.1" 404 1795
+WARNING 2021-08-18 21:08:11,301 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
+WARNING 2021-08-18 21:08:11,306 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
+INFO 2021-08-18 21:08:55,688 autoreload 637 Watching for file changes with StatReloader
