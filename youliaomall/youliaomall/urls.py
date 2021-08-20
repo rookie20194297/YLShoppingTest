@@ -20,4 +20,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     # users
     url(r'^',include('users.urls')),
+    # carts
+    url(r'',include('carts.urls',namespace='carts'))
 ]

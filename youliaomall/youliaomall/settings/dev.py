@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'users'#用户模块
+    'carts'#购物车模块
 ]
 
 MIDDLEWARE = [
@@ -143,6 +144,14 @@ CACHES = {
     #         "CLIENT_CLASS": "django_redis.client.DefaultClient",
     #     }
     # }
+    "carts":{ # 购物车
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://47.113.201.52:6379/4",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        
+        }
+    }
 }
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "session"

@@ -15,24 +15,21 @@ let vm = new Vue({
 		error_mobile_message: '',
 		error_image_code_message: '',
 		error_sms_code_message: '',
-		error_password_message:'',
-		
+
 		uuid: '',
 		image_code_url: '',
 		sms_code_tip: '获取短信验证码',
 		sending_flag: false,
 	},
 	mounted(){
-		// 界面获取图形验证码
+		// 生成图形验证码
 		this.generate_image_code();
 	},
 	methods: {
-		// 生成图形验证码的请求地址
+		// 生成图形验证码
 		generate_image_code(){
-			// 生成一个编号 : 严格一点的使用uuid保证编号唯一， 不是很严谨的情况下，也可以使用时间戳
 			this.uuid = generateUUID();
-			// 设置页面中图形验证码img标签的src属性
-			this.image_code_url = "/verification/image_code/" + this.uuid + "/";
+			this.image_code_url = "/image_codes/" + this.uuid + "/";
 		},
 		// 检查手机号
 		check_mobile(){
@@ -71,47 +68,43 @@ let vm = new Vue({
 				this.error_sms_code = false;
 			}
 		},
-		// 发送手机短信验证码
+		// 发送短信验证码
 		send_sms_code(){
+			// 避免频繁点击发送短信验证码标签
 			if (this.sending_flag == true) {
 				return;
 			}
 			this.sending_flag = true;
 
-			// 校验参数，保证输入框有数据填写
+			// 校验参数
 			this.check_mobile();
 			this.check_image_code();
-
 			if (this.error_mobile == true || this.error_image_code == true) {
 				this.sending_flag = false;
 				return;
 			}
 
 			// 向后端接口发送请求，让后端发送短信验证码
-			let url = '/verification/sms_codes/' + this.mobile + '/?image_code=' + this.image_code+'&image_code_id='+ this.uuid;
+			let url = '/sms_codes/' + this.mobile + '/?image_code=' + this.image_code+'&uuid='+ this.uuid;
 			axios.get(url, {
 				responseType: 'json'
 			})
 				.then(response => {
 					// 表示后端发送短信成功
 					if (response.data.code == '0') {
-						// 倒计时60秒，60秒后允许用户再次点击发送短信验证码的按钮
+						// 倒计时60秒
 						let num = 60;
-						// 设置一个计时器
 						let t = setInterval(() => {
 							if (num == 1) {
-								// 如果计时器到最后, 清除计时器对象
 								clearInterval(t);
-								// 将点击获取验证码的按钮展示的文本回复成原始文本
 								this.sms_code_tip = '获取短信验证码';
-								// 将点击按钮的onclick事件函数恢复回去
+								this.generate_image_code();
 								this.sending_flag = false;
 							} else {
 								num -= 1;
-								// 展示倒计时信息
 								this.sms_code_tip = num + '秒';
 							}
-						}, 1000, 60)
+						}, 1000)
 					} else {
 						if (response.data.code == '4001') {
 							this.error_image_code_message = response.data.errmsg;
@@ -120,7 +113,6 @@ let vm = new Vue({
 							this.error_sms_code_message = response.data.errmsg;
 							this.error_sms_code = true;
 						}
-						this.generate_image_code();
 						this.sending_flag = false;
 					}
 				})

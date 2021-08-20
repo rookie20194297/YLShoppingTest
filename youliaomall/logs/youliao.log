@@ -612,3 +612,15 @@ WARNING 2021-08-18 21:39:51,224 basehttp 161 "GET /static/css/main.css HTTP/1.1"
 WARNING 2021-08-18 21:39:51,239 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 404 1807
 WARNING 2021-08-18 21:39:51,244 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 404 1816
 INFO 2021-08-18 23:24:40,359 autoreload 637 Watching for file changes with StatReloader
+WARNING 2021-08-18 23:24:46,722 log 230 Not Found: /
+WARNING 2021-08-18 23:24:46,725 basehttp 161 "GET / HTTP/1.1" 404 2224
+INFO 2021-08-18 23:24:55,284 basehttp 161 "GET /register/ HTTP/1.1" 200 2956
+INFO 2021-08-18 23:24:55,309 basehttp 161 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-08-18 23:24:55,315 basehttp 161 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2021-08-18 23:24:55,315 basehttp 161 "GET /static/images/logo4.png HTTP/1.1" 200 7344
+INFO 2021-08-18 23:24:55,318 basehttp 161 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2021-08-18 23:24:55,334 basehttp 161 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-08-18 23:24:55,335 basehttp 161 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-08-18 23:24:55,338 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2021-08-18 23:30:54,543 log 230 Not Found: /register/index.html
+WARNING 2021-08-18 23:30:54,544 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2299
