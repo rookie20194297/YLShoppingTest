@@ -42,8 +42,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'users'#用户模块
-    'carts'#购物车模块
+    #用户模块
+    'users',
+    #购物车模块
+    'carts',
 ]
 
 MIDDLEWARE = [
@@ -87,18 +89,7 @@ TEMPLATES = [
             'environment': 'youliaomall.utils.jinja2_env.jinja2_environment',
         },
     },
-    {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
-        'APP_DIRS': True, 
-        'OPTIONS': {'context_processors':[
-                'django.template.context_processors.debug', 
-                'django.template.context_processors.request', 
-                'django.contrib.auth.context_processors.auth', 
-                'django.contrib.messages.context_processors.messages', 
-            ], 
-        }, 
-    }
+
 ]
 
 

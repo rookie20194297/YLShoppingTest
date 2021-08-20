@@ -21,5 +21,6 @@ urlpatterns = [
     # users
     url(r'^',include('users.urls')),
     # carts
-    url(r'',include('carts.urls',namespace='carts'))
+    url(r'^', include(('carts.urls','carts'), namespace='carts')),
+    #url(r'^', include('carts.urls', namespace='carts'))
 ]

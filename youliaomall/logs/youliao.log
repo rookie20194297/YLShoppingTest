@@ -624,3 +624,22 @@ INFO 2021-08-18 23:24:55,335 basehttp 161 "GET /static/images/interval_line.png 
 INFO 2021-08-18 23:24:55,338 basehttp 161 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
 WARNING 2021-08-18 23:30:54,543 log 230 Not Found: /register/index.html
 WARNING 2021-08-18 23:30:54,544 basehttp 161 "GET /register/index.html HTTP/1.1" 404 2299
+INFO 2021-08-20 13:35:35,722 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 13:38:11,951 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 13:41:16,204 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 13:42:35,182 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 13:44:25,465 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 13:44:44,795 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 13:48:36,784 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 13:51:39,286 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 13:55:08,824 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 14:00:04,877 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 14:03:19,279 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 14:05:19,303 autoreload 251 D:\01\youliaomall\youliaomall\youliaomall\settings\dev.py changed, reloading.
+INFO 2021-08-20 14:05:39,169 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 14:06:58,626 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 14:08:06,148 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 14:09:22,381 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 14:13:02,599 autoreload 251 D:\01\youliaomall\youliaomall\youliaomall\urls.py changed, reloading.
+INFO 2021-08-20 14:13:05,638 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-08-20 14:16:08,162 autoreload 637 Watching for file changes with StatReloader

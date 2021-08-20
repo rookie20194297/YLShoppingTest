@@ -9,7 +9,7 @@ import base64
 import pickle
 # Create your views here.
 
-class CartsView():
+class CartsView(View):
     """购物车管理"""
     def post(self,request):
         """保存购物车/添加购物车"""
@@ -91,9 +91,45 @@ class CartsView():
             #查询 哈希（用户id：{商品id：数量}）
             redis_cart=redis_conn.hgetall('carts_%s'%user.id)
             #查询 被勾选状态（用户id：{商品id}）
-            redis_conn.smembers('selected_%s'%user.id)
+            redis_selected=redis_conn.smembers('selected_%s'%user.id)
+            #两个字典进行合并
+            cart_dict={}
+            for sku_id,count in redis_cart.items():
+                cart_dict[int(sku_id)]={
+                    "count":int(count),
+                    "selected":sku_id in redis_selected
+                }
         else:
-            pass
-        return render(request,'cart.html')
+            #获取cookie中的购物车，并且判断是否有购物车数据
+            cart_str= request.COOKIES.get('carts')
+            if cart_str :
+                cart_str_bytes= cart_str.encode()# str ->byte
+                cart_dict_bytes=base64.b64decode(cart_str_bytes) #byte ->byte(序列)
+                cart_dict=pickle.loads(cart_dict_bytes)# 序列化->dict
+            else:
+                cart_dict={}
+        #构造响应数据[{},{}]
+        sku_ids=cart_dict.keys()
+        skus=SKU.objects.filter(id__in=sku_ids)
+        cart_skus = []
+        for sku in skus:
+            cart_skus.append({
+                'id':sku.id,
+                'name':sku.name,
+                'count': cart_dict.get(sku.id).get('count'),
+                'selected': str(cart_dict.get(sku.id).get('selected')),  # 将True，转'True'，方便json解析
+                'default_image_url':sku.default_image.url,
+                'price':str(sku.price), # 从Decimal('10.2')中取出'10.2'，方便json解析
+                'amount':str(sku.price * cart_dict.get(sku.id).get('count')),
+            })
+
+        context = {
+            'cart_skus':cart_skus,
+        }
+
+
+        
+            
+        return render(request,'cart.html',context)
 
         
