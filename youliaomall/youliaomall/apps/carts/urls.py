@@ -6,6 +6,6 @@ from . import views
 urlpatterns = [
     #购物车管理
     url(r'^carts/$',views.CartsView.as_view(),name='info'),
-    #q全选的url
+    #全选的url
     url(r'carts/selection/',views.CartsSelectAllView.as_view()),
 ]
